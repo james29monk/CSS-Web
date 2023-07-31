@@ -1,0 +1,43 @@
+.header{
+    font-size: 300%;
+    display: flex;
+    justify-content: center;/}
+
+    .Content{ display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin:10px;
+        border: red;
+        
+     }
+     
+.p1 {display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 0, 0);
+    margin: 50px;
+    color: rgb(0, 0, 0);
+    transition-duration: 1.5s;
+    transition-timing-function: ease;
+    transition-property:background-color, transform;
+    /}
+.p2 {display: flex;
+justify-content: center;
+ height:100px;
+   width:100px;   
+     background-color: black;}
+.p2:hover{ font-size: 50px;
+     color: red;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+width: 200px;}
+
+.p1:hover{background-color:red;
+     transform:rotate(360deg);
+    }
+     
+     body{background-color: rgb(102, 102, 102);}
+
+
+
